@@ -25,6 +25,14 @@
 		5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8D198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m */; };
 		5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */; };
 		5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07B7198CDB2000014D54 /* TCMapViewController.m */; };
+		5DCD07BE198CE23100014D54 /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */; };
+		5DCD07C0198D054A00014D54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCD07BF198D054A00014D54 /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		5DCD07C3198D106800014D54 /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C2198D106800014D54 /* FSCategory.m */; };
+		5DCD07C6198D106900014D54 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C5198D106900014D54 /* Venue.m */; };
+		5DCD07C9198D106900014D54 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C8198D106900014D54 /* Contact.m */; };
+		5DCD07CC198D106900014D54 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CB198D106900014D54 /* Menu.m */; };
+		5DCD07CF198D106900014D54 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CE198D106900014D54 /* Location.m */; };
+		5DCD07D3198D115E00014D54 /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07D2198D115E00014D54 /* TCRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,20 @@
 		5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
 		5DCD07B6198CDB2000014D54 /* TCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMapViewController.h; sourceTree = "<group>"; };
 		5DCD07B7198CDB2000014D54 /* TCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMapViewController.m; sourceTree = "<group>"; };
+		5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
+		5DCD07BF198D054A00014D54 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5DCD07C1198D106800014D54 /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		5DCD07C2198D106800014D54 /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		5DCD07C4198D106900014D54 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		5DCD07C5198D106900014D54 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		5DCD07C7198D106900014D54 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		5DCD07C8198D106900014D54 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		5DCD07CA198D106900014D54 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		5DCD07CB198D106900014D54 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		5DCD07CD198D106900014D54 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		5DCD07CE198D106900014D54 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		5DCD07D1198D115E00014D54 /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
+		5DCD07D2198D115E00014D54 /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
 		5E11CC6A189C49DBA04ADA8A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		83E54DE1774A4CE5AB92C45C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -72,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCD07C0198D054A00014D54 /* CoreData.framework in Frameworks */,
 				5D5A3C86198C221B0010D77E /* CoreGraphics.framework in Frameworks */,
 				5D5A3C88198C221B0010D77E /* UIKit.framework in Frameworks */,
 				5D5A3C84198C221B0010D77E /* Foundation.framework in Frameworks */,
@@ -115,6 +138,7 @@
 		5D5A3C82198C221B0010D77E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5DCD07BF198D054A00014D54 /* CoreData.framework */,
 				5DBD2A8A198CCEAB007F9DBB /* Vendor */,
 				5D5A3C83198C221B0010D77E /* Foundation.framework */,
 				5D5A3C85198C221B0010D77E /* CoreGraphics.framework */,
@@ -128,13 +152,9 @@
 		5D5A3C89198C221B0010D77E /* World Traveler */ = {
 			isa = PBXGroup;
 			children = (
-				5D5A3C92198C221B0010D77E /* TCAppDelegate.h */,
-				5D5A3C93198C221B0010D77E /* TCAppDelegate.m */,
-				5D5A3C95198C221B0010D77E /* Main.storyboard */,
-				5D5A3C98198C221B0010D77E /* TCListViewController.h */,
-				5D5A3C99198C221B0010D77E /* TCListViewController.m */,
-				5DCD07B6198CDB2000014D54 /* TCMapViewController.h */,
-				5DCD07B7198CDB2000014D54 /* TCMapViewController.m */,
+				5DCD07BA198CE15A00014D54 /* Initialization */,
+				5DCD07BB198CE1CD00014D54 /* Views */,
+				5DCD07B9198CE14B00014D54 /* Model */,
 				5D5A3C9B198C221B0010D77E /* Images.xcassets */,
 				5D5A3C8A198C221B0010D77E /* Supporting Files */,
 			);
@@ -187,6 +207,55 @@
 				5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */,
 			);
 			path = AFMMRecordResponseSerializer;
+			sourceTree = "<group>";
+		};
+		5DCD07B9198CE14B00014D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */,
+				5DCD07D0198D108400014D54 /* Model */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5DCD07BA198CE15A00014D54 /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A3C92198C221B0010D77E /* TCAppDelegate.h */,
+				5D5A3C93198C221B0010D77E /* TCAppDelegate.m */,
+				5D5A3C95198C221B0010D77E /* Main.storyboard */,
+			);
+			name = Initialization;
+			sourceTree = "<group>";
+		};
+		5DCD07BB198CE1CD00014D54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D5A3C98198C221B0010D77E /* TCListViewController.h */,
+				5D5A3C99198C221B0010D77E /* TCListViewController.m */,
+				5DCD07B6198CDB2000014D54 /* TCMapViewController.h */,
+				5DCD07B7198CDB2000014D54 /* TCMapViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5DCD07D0198D108400014D54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DCD07D1198D115E00014D54 /* TCRecord.h */,
+				5DCD07D2198D115E00014D54 /* TCRecord.m */,
+				5DCD07CD198D106900014D54 /* Location.h */,
+				5DCD07CE198D106900014D54 /* Location.m */,
+				5DCD07CA198D106900014D54 /* Menu.h */,
+				5DCD07CB198D106900014D54 /* Menu.m */,
+				5DCD07C7198D106900014D54 /* Contact.h */,
+				5DCD07C8198D106900014D54 /* Contact.m */,
+				5DCD07C4198D106900014D54 /* Venue.h */,
+				5DCD07C5198D106900014D54 /* Venue.m */,
+				5DCD07C1198D106800014D54 /* FSCategory.h */,
+				5DCD07C2198D106800014D54 /* FSCategory.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,11 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DCD07BE198CE23100014D54 /* WorldTravelerModel.xcdatamodeld in Sources */,
 				5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */,
+				5DCD07C9198D106900014D54 /* Contact.m in Sources */,
 				5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */,
+				5DCD07CC198D106900014D54 /* Menu.m in Sources */,
+				5DCD07C6198D106900014D54 /* Venue.m in Sources */,
 				5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */,
+				5DCD07D3198D115E00014D54 /* TCRecord.m in Sources */,
 				5D5A3C9A198C221B0010D77E /* TCListViewController.m in Sources */,
 				5D5A3C90198C221B0010D77E /* main.m in Sources */,
+				5DCD07C3198D106800014D54 /* FSCategory.m in Sources */,
+				5DCD07CF198D106900014D54 /* Location.m in Sources */,
 				5D5A3C94198C221B0010D77E /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,6 +622,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */,
+			);
+			currentVersion = 5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */;
+			path = WorldTravelerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5D5A3C78198C221B0010D77E /* Project object */;
 }
