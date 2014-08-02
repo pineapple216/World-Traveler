@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Koen Hendriks. All rights reserved.
 //
 
-#import "TCViewController.h"
+#import "TCListViewController.h"
 
-@interface TCViewController ()
+@interface TCListViewController ()
 
 @end
 
-@implementation TCViewController
+@implementation TCListViewController
 
 - (void)viewDidLoad
 {

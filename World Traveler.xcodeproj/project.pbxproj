@@ -15,7 +15,7 @@
 		5D5A3C90198C221B0010D77E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3C8F198C221B0010D77E /* main.m */; };
 		5D5A3C94198C221B0010D77E /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3C93198C221B0010D77E /* TCAppDelegate.m */; };
 		5D5A3C97198C221B0010D77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A3C95198C221B0010D77E /* Main.storyboard */; };
-		5D5A3C9A198C221B0010D77E /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3C99198C221B0010D77E /* TCViewController.m */; };
+		5D5A3C9A198C221B0010D77E /* TCListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3C99198C221B0010D77E /* TCListViewController.m */; };
 		5D5A3C9C198C221B0010D77E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A3C9B198C221B0010D77E /* Images.xcassets */; };
 		5D5A3CA3198C221B0010D77E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A3CA2198C221B0010D77E /* XCTest.framework */; };
 		5D5A3CA4198C221B0010D77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A3C83198C221B0010D77E /* Foundation.framework */; };
@@ -48,8 +48,8 @@
 		5D5A3C92198C221B0010D77E /* TCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
 		5D5A3C93198C221B0010D77E /* TCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
 		5D5A3C96198C221B0010D77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5D5A3C98198C221B0010D77E /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
-		5D5A3C99198C221B0010D77E /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		5D5A3C98198C221B0010D77E /* TCListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCListViewController.h; sourceTree = "<group>"; };
+		5D5A3C99198C221B0010D77E /* TCListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCListViewController.m; sourceTree = "<group>"; };
 		5D5A3C9B198C221B0010D77E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5D5A3CA1198C221B0010D77E /* World TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5A3CA2198C221B0010D77E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,8 +128,8 @@
 				5D5A3C92198C221B0010D77E /* TCAppDelegate.h */,
 				5D5A3C93198C221B0010D77E /* TCAppDelegate.m */,
 				5D5A3C95198C221B0010D77E /* Main.storyboard */,
-				5D5A3C98198C221B0010D77E /* TCViewController.h */,
-				5D5A3C99198C221B0010D77E /* TCViewController.m */,
+				5D5A3C98198C221B0010D77E /* TCListViewController.h */,
+				5D5A3C99198C221B0010D77E /* TCListViewController.m */,
 				5D5A3C9B198C221B0010D77E /* Images.xcassets */,
 				5D5A3C8A198C221B0010D77E /* Supporting Files */,
 			);
@@ -319,7 +319,7 @@
 			files = (
 				5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */,
 				5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */,
-				5D5A3C9A198C221B0010D77E /* TCViewController.m in Sources */,
+				5D5A3C9A198C221B0010D77E /* TCListViewController.m in Sources */,
 				5D5A3C90198C221B0010D77E /* main.m in Sources */,
 				5D5A3C94198C221B0010D77E /* TCAppDelegate.m in Sources */,
 			);
