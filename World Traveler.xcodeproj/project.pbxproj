@@ -22,6 +22,8 @@
 		5D5A3CA5198C221C0010D77E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A3C87198C221B0010D77E /* UIKit.framework */; };
 		5D5A3CAD198C221C0010D77E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D5A3CAB198C221C0010D77E /* InfoPlist.strings */; };
 		5D5A3CAF198C221C0010D77E /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3CAE198C221C0010D77E /* World_TravelerTests.m */; };
+		5D7A63E8198D55430055EB13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A63E7198D55430055EB13 /* MapKit.framework */; };
+		5D7A63EA198D555E0055EB13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A63E9198D555E0055EB13 /* CoreLocation.framework */; };
 		5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8D198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m */; };
 		5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */; };
 		5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07B7198CDB2000014D54 /* TCMapViewController.m */; };
@@ -33,6 +35,7 @@
 		5DCD07CC198D106900014D54 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CB198D106900014D54 /* Menu.m */; };
 		5DCD07CF198D106900014D54 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CE198D106900014D54 /* Location.m */; };
 		5DCD07D3198D115E00014D54 /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07D2198D115E00014D54 /* TCRecord.m */; };
+		5DCDEBCF198D2FA400D18AA6 /* TCFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDEBCE198D2FA400D18AA6 /* TCFourSquareSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,8 @@
 		5D5A3CAA198C221C0010D77E /* World TravelerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "World TravelerTests-Info.plist"; sourceTree = "<group>"; };
 		5D5A3CAC198C221C0010D77E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D5A3CAE198C221C0010D77E /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
+		5D7A63E7198D55430055EB13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5D7A63E9198D555E0055EB13 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5DBD2A8C198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
 		5DBD2A8D198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
 		5DBD2A8E198CCED8007F9DBB /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
@@ -85,6 +90,8 @@
 		5DCD07CE198D106900014D54 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		5DCD07D1198D115E00014D54 /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
 		5DCD07D2198D115E00014D54 /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
+		5DCDEBCD198D2FA400D18AA6 /* TCFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFourSquareSessionManager.h; sourceTree = "<group>"; };
+		5DCDEBCE198D2FA400D18AA6 /* TCFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFourSquareSessionManager.m; sourceTree = "<group>"; };
 		5E11CC6A189C49DBA04ADA8A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		83E54DE1774A4CE5AB92C45C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -94,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7A63EA198D555E0055EB13 /* CoreLocation.framework in Frameworks */,
+				5D7A63E8198D55430055EB13 /* MapKit.framework in Frameworks */,
 				5DCD07C0198D054A00014D54 /* CoreData.framework in Frameworks */,
 				5D5A3C86198C221B0010D77E /* CoreGraphics.framework in Frameworks */,
 				5D5A3C88198C221B0010D77E /* UIKit.framework in Frameworks */,
@@ -138,6 +147,8 @@
 		5D5A3C82198C221B0010D77E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D7A63E9198D555E0055EB13 /* CoreLocation.framework */,
+				5D7A63E7198D55430055EB13 /* MapKit.framework */,
 				5DCD07BF198D054A00014D54 /* CoreData.framework */,
 				5DBD2A8A198CCEAB007F9DBB /* Vendor */,
 				5D5A3C83198C221B0010D77E /* Foundation.framework */,
@@ -154,6 +165,7 @@
 			children = (
 				5DCD07BA198CE15A00014D54 /* Initialization */,
 				5DCD07BB198CE1CD00014D54 /* Views */,
+				5DCDEBCC198D2EF300D18AA6 /* API */,
 				5DCD07B9198CE14B00014D54 /* Model */,
 				5D5A3C9B198C221B0010D77E /* Images.xcassets */,
 				5D5A3C8A198C221B0010D77E /* Supporting Files */,
@@ -256,6 +268,15 @@
 				5DCD07C2198D106800014D54 /* FSCategory.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		5DCDEBCC198D2EF300D18AA6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDEBCD198D2FA400D18AA6 /* TCFourSquareSessionManager.h */,
+				5DCDEBCE198D2FA400D18AA6 /* TCFourSquareSessionManager.m */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +414,7 @@
 			files = (
 				5DCD07BE198CE23100014D54 /* WorldTravelerModel.xcdatamodeld in Sources */,
 				5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */,
+				5DCDEBCF198D2FA400D18AA6 /* TCFourSquareSessionManager.m in Sources */,
 				5DCD07C9198D106900014D54 /* Contact.m in Sources */,
 				5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */,
 				5DCD07CC198D106900014D54 /* Menu.m in Sources */,
