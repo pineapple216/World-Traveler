@@ -24,17 +24,17 @@
 		5D5A3CAF198C221C0010D77E /* World_TravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5A3CAE198C221C0010D77E /* World_TravelerTests.m */; };
 		5D7A63E8198D55430055EB13 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A63E7198D55430055EB13 /* MapKit.framework */; };
 		5D7A63EA198D555E0055EB13 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7A63E9198D555E0055EB13 /* CoreLocation.framework */; };
+		5D955EEF198E710300A2306C /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EE4198E710300A2306C /* Contact.m */; };
+		5D955EF0198E710300A2306C /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EE6198E710300A2306C /* FSCategory.m */; };
+		5D955EF1198E710300A2306C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EE8198E710300A2306C /* Location.m */; };
+		5D955EF2198E710300A2306C /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EEA198E710300A2306C /* Menu.m */; };
+		5D955EF3198E710300A2306C /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EEC198E710300A2306C /* TCRecord.m */; };
+		5D955EF4198E710300A2306C /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EEE198E710300A2306C /* Venue.m */; };
+		5D955EF7198E711400A2306C /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D955EF5198E711400A2306C /* WorldTravelerModel.xcdatamodeld */; };
 		5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8D198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m */; };
 		5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */; };
 		5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07B7198CDB2000014D54 /* TCMapViewController.m */; };
-		5DCD07BE198CE23100014D54 /* WorldTravelerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */; };
 		5DCD07C0198D054A00014D54 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCD07BF198D054A00014D54 /* CoreData.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		5DCD07C3198D106800014D54 /* FSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C2198D106800014D54 /* FSCategory.m */; };
-		5DCD07C6198D106900014D54 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C5198D106900014D54 /* Venue.m */; };
-		5DCD07C9198D106900014D54 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07C8198D106900014D54 /* Contact.m */; };
-		5DCD07CC198D106900014D54 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CB198D106900014D54 /* Menu.m */; };
-		5DCD07CF198D106900014D54 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07CE198D106900014D54 /* Location.m */; };
-		5DCD07D3198D115E00014D54 /* TCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD07D2198D115E00014D54 /* TCRecord.m */; };
 		5DCDEBCF198D2FA400D18AA6 /* TCFourSquareSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDEBCE198D2FA400D18AA6 /* TCFourSquareSessionManager.m */; };
 /* End PBXBuildFile section */
 
@@ -70,26 +70,26 @@
 		5D5A3CAE198C221C0010D77E /* World_TravelerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = World_TravelerTests.m; sourceTree = "<group>"; };
 		5D7A63E7198D55430055EB13 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5D7A63E9198D555E0055EB13 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5D955EE3198E710300A2306C /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		5D955EE4198E710300A2306C /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		5D955EE5198E710300A2306C /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
+		5D955EE6198E710300A2306C /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
+		5D955EE7198E710300A2306C /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		5D955EE8198E710300A2306C /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		5D955EE9198E710300A2306C /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		5D955EEA198E710300A2306C /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
+		5D955EEB198E710300A2306C /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
+		5D955EEC198E710300A2306C /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
+		5D955EED198E710300A2306C /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		5D955EEE198E710300A2306C /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
+		5D955EF6198E711400A2306C /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
 		5DBD2A8C198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializationMapper.h; sourceTree = "<group>"; };
 		5DBD2A8D198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializationMapper.m; sourceTree = "<group>"; };
 		5DBD2A8E198CCED8007F9DBB /* AFMMRecordResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFMMRecordResponseSerializer.h; sourceTree = "<group>"; };
 		5DBD2A8F198CCED8007F9DBB /* AFMMRecordResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFMMRecordResponseSerializer.m; sourceTree = "<group>"; };
 		5DCD07B6198CDB2000014D54 /* TCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMapViewController.h; sourceTree = "<group>"; };
 		5DCD07B7198CDB2000014D54 /* TCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMapViewController.m; sourceTree = "<group>"; };
-		5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorldTravelerModel.xcdatamodel; sourceTree = "<group>"; };
 		5DCD07BF198D054A00014D54 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5DCD07C1198D106800014D54 /* FSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategory.h; sourceTree = "<group>"; };
-		5DCD07C2198D106800014D54 /* FSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategory.m; sourceTree = "<group>"; };
-		5DCD07C4198D106900014D54 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
-		5DCD07C5198D106900014D54 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
-		5DCD07C7198D106900014D54 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
-		5DCD07C8198D106900014D54 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
-		5DCD07CA198D106900014D54 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
-		5DCD07CB198D106900014D54 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
-		5DCD07CD198D106900014D54 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
-		5DCD07CE198D106900014D54 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
-		5DCD07D1198D115E00014D54 /* TCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRecord.h; sourceTree = "<group>"; };
-		5DCD07D2198D115E00014D54 /* TCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRecord.m; sourceTree = "<group>"; };
 		5DCDEBCD198D2FA400D18AA6 /* TCFourSquareSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFourSquareSessionManager.h; sourceTree = "<group>"; };
 		5DCDEBCE198D2FA400D18AA6 /* TCFourSquareSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFourSquareSessionManager.m; sourceTree = "<group>"; };
 		5E11CC6A189C49DBA04ADA8A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -224,7 +224,7 @@
 		5DCD07B9198CE14B00014D54 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */,
+				5D955EF5198E711400A2306C /* WorldTravelerModel.xcdatamodeld */,
 				5DCD07D0198D108400014D54 /* Model */,
 			);
 			name = Model;
@@ -254,18 +254,18 @@
 		5DCD07D0198D108400014D54 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5DCD07D1198D115E00014D54 /* TCRecord.h */,
-				5DCD07D2198D115E00014D54 /* TCRecord.m */,
-				5DCD07CD198D106900014D54 /* Location.h */,
-				5DCD07CE198D106900014D54 /* Location.m */,
-				5DCD07CA198D106900014D54 /* Menu.h */,
-				5DCD07CB198D106900014D54 /* Menu.m */,
-				5DCD07C7198D106900014D54 /* Contact.h */,
-				5DCD07C8198D106900014D54 /* Contact.m */,
-				5DCD07C4198D106900014D54 /* Venue.h */,
-				5DCD07C5198D106900014D54 /* Venue.m */,
-				5DCD07C1198D106800014D54 /* FSCategory.h */,
-				5DCD07C2198D106800014D54 /* FSCategory.m */,
+				5D955EE3198E710300A2306C /* Contact.h */,
+				5D955EE4198E710300A2306C /* Contact.m */,
+				5D955EE5198E710300A2306C /* FSCategory.h */,
+				5D955EE6198E710300A2306C /* FSCategory.m */,
+				5D955EE7198E710300A2306C /* Location.h */,
+				5D955EE8198E710300A2306C /* Location.m */,
+				5D955EE9198E710300A2306C /* Menu.h */,
+				5D955EEA198E710300A2306C /* Menu.m */,
+				5D955EEB198E710300A2306C /* TCRecord.h */,
+				5D955EEC198E710300A2306C /* TCRecord.m */,
+				5D955EED198E710300A2306C /* Venue.h */,
+				5D955EEE198E710300A2306C /* Venue.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -412,19 +412,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DCD07BE198CE23100014D54 /* WorldTravelerModel.xcdatamodeld in Sources */,
+				5D955EF4198E710300A2306C /* Venue.m in Sources */,
+				5D955EEF198E710300A2306C /* Contact.m in Sources */,
 				5DCD07B8198CDB2000014D54 /* TCMapViewController.m in Sources */,
 				5DCDEBCF198D2FA400D18AA6 /* TCFourSquareSessionManager.m in Sources */,
-				5DCD07C9198D106900014D54 /* Contact.m in Sources */,
 				5DBD2A91198CCED8007F9DBB /* AFMMRecordResponseSerializer.m in Sources */,
-				5DCD07CC198D106900014D54 /* Menu.m in Sources */,
-				5DCD07C6198D106900014D54 /* Venue.m in Sources */,
+				5D955EF2198E710300A2306C /* Menu.m in Sources */,
 				5DBD2A90198CCED8007F9DBB /* AFMMRecordResponseSerializationMapper.m in Sources */,
-				5DCD07D3198D115E00014D54 /* TCRecord.m in Sources */,
+				5D955EF7198E711400A2306C /* WorldTravelerModel.xcdatamodeld in Sources */,
 				5D5A3C9A198C221B0010D77E /* TCListViewController.m in Sources */,
+				5D955EF3198E710300A2306C /* TCRecord.m in Sources */,
+				5D955EF1198E710300A2306C /* Location.m in Sources */,
 				5D5A3C90198C221B0010D77E /* main.m in Sources */,
-				5DCD07C3198D106800014D54 /* FSCategory.m in Sources */,
-				5DCD07CF198D106900014D54 /* Location.m in Sources */,
+				5D955EF0198E710300A2306C /* FSCategory.m in Sources */,
 				5D5A3C94198C221B0010D77E /* TCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,12 +646,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5DCD07BC198CE23100014D54 /* WorldTravelerModel.xcdatamodeld */ = {
+		5D955EF5198E711400A2306C /* WorldTravelerModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */,
+				5D955EF6198E711400A2306C /* WorldTravelerModel.xcdatamodel */,
 			);
-			currentVersion = 5DCD07BD198CE23100014D54 /* WorldTravelerModel.xcdatamodel */;
+			currentVersion = 5D955EF6198E711400A2306C /* WorldTravelerModel.xcdatamodel */;
 			path = WorldTravelerModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
